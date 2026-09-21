@@ -1,0 +1,41 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Backend - Python
+# =========================
+BACKEND/.venv/
+BACKEND/venv/
+BACKEND/__pycache__/
+BACKEND/*.py[cod]
+BACKEND/.pytest_cache/
+BACKEND/.mypy_cache/
+
+# =========================
+# Frontend - Node/Vite
+# =========================
+FRONTEND/node_modules/
+FRONTEND/dist/
+FRONTEND/.vite/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
