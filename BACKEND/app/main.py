@@ -124,7 +124,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        FRONTEND_URL,
+        "https://hasamex-ai-engineer-case-study.vercel.app",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
