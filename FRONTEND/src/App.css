@@ -1,0 +1,68 @@
+.app-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 48px 24px 64px;
+}
+
+.app-main > * {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--ink);
+  font-family: var(--font-serif);
+}
+
+p {
+  line-height: 1.6;
+}
+
+.app-main .gt-loading,
+.app-main .tt-loading {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 60px 20px;
+  font-size: 18px;
+}
+
+.app-main .gt-error,
+.app-main .tt-error,
+.app-main .at-error {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 16px 20px;
+  border: 1px solid var(--disagreement);
+  background: #f9e9e7;
+  color: var(--disagreement);
+  border-radius: 6px;
+}
+
+
+.gt-call-label,
+.tt-call-label,
+.qb-speaker,
+.qb-time {
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding: 32px 16px 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-main {
+    padding: 24px 12px 40px;
+  }
+}

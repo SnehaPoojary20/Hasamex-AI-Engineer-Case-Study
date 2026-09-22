@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { askQuestion } from "../api";
-import QuoteBlock from "./QuoteBlock";
+import QuoteBlock from "../Quote Block/quoteBlock.jsx";
 import "./AskTab.css";
 
 function AskTab() {

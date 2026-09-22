@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {getGuide} from "../api";
+import QuoteBlock from "../Quote Block/quoteBlock.jsx";
 import "./GuideTab.css";
 
 function GuideTab (){
@@ -17,9 +18,17 @@ function GuideTab (){
     return <p className="gt-error">Could not load guide answers: {error}</p>;
   }
 
-  if(! data){
-    return <p className="gt-loading">Reading the transcripts…</p>;
-  }
+ if (!data) {
+  return <p className="gt-loading">Reading the transcripts…</p>;
+}
+
+ const verifiedPct =
+  data.quote_stats.proposed > 0
+    ? Math.round(
+        (data.quote_stats.verified / data.quote_stats.proposed) * 100
+      )
+    : 0;
+
 
     return (
     <div>

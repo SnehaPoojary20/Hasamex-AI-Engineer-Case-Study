@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getThemes } from "../api";
-import QuoteBlock from "./QuoteBlock";
+import QuoteBlock from "../Quote Block/quoteBlock.jsx";
 import "./ThemesTab.css";
 
 const KIND_LABEL = {
