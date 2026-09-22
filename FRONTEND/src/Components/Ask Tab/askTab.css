@@ -1,0 +1,41 @@
+.at-wrap { max-width: 640px; }
+
+.at-form { display: flex; gap: 10px; margin-bottom: 24px; }
+
+.at-input {
+  flex: 1;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 10px 12px;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.at-input:focus { border-color: var(--accent); outline: none; }
+
+.at-submit {
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: 3px;
+  padding: 0 20px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+.at-submit:disabled { opacity: 0.5; }
+
+.at-error {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--disagreement);
+}
+
+.at-unanswerable {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.at-answer { font-size: 0.98rem; line-height: 1.55; margin: 0 0 14px; }

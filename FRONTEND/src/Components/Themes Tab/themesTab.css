@@ -1,0 +1,62 @@
+.tt-loading, .tt-error {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.tt-theme {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--rule);
+  border-left: 3px solid var(--rule);
+  padding-left: 16px;
+}
+.tt-theme:first-child { padding-top: 0; }
+
+.tt-consensus    { border-left-color: var(--consensus); }
+.tt-disagreement { border-left-color: var(--disagreement); }
+.tt-partial      { border-left-color: var(--partial); }
+
+.tt-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tt-head h2 { font-size: 1.1rem; font-weight: 600; margin: 0; }
+
+.tt-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--ink-soft);
+}
+
+.tt-summary {
+  margin: 8px 0 16px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.tt-positions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tt-call-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.tt-stance { margin: 0 0 8px; font-size: 0.93rem; }
+
+.tt-note {
+  margin: 14px 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  line-height: 1.5;
+}
