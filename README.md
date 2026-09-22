@@ -6,6 +6,8 @@ each expert, pulls out exact quotes with timestamps, compares the three experts 
 themes and disagreements, and lets a reviewer ask their own questions across all three
 calls.
 
+LIVE: https://hasamex-ai-engineer-case-study.vercel.app/
+
 ## What it does
 
 1. **Reads the three transcripts** (France, Germany, United Kingdom) and breaks each one
