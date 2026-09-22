@@ -105,27 +105,22 @@ async def lifespan(app):
     yield
 
 
-# Create the FastAPI application FIRST
+# Create the FastAPI application
 app = FastAPI(
     title="Expert Call Analyzer",
     lifespan=lifespan
 )
 
 
-# Frontend URL from Render environment variable
-FRONTEND_URL = os.getenv(
-    "FRONTEND_URL",
-    "http://localhost:5173"
-)
-
-
-# Configure CORS AFTER creating the app
+# Configure CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "http://127.0.0.1:5173",
         "https://hasamex-ai-engineer-case-study.vercel.app",
     ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
