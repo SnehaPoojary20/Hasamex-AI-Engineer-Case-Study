@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  margin-top: 40px;
+  padding: 24px;
+  border-top: 1px solid var(--rule);
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+  font-family: var(--font-mono);
+  font-size: 12px;
+
+  background-color: black;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer span {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

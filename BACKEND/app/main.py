@@ -7,16 +7,23 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from app.parser import parse_transcript, validate
 from app.analysis import build_guide, build_themes, answer_question
+
 BASE = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE / "data" / "raw"
 PROCESSED_DIR = BASE / "data" / "processed"
 STATE = {}
+
+
+
 def load_calls():
     files = sorted(RAW_DIR.glob("*.txt"))
     calls = [parse_transcript(f, i + 1) for i, f in enumerate(files)]
     for c in calls:
         validate(c)
     return calls
+
+
+
 def cached(name, builder):
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     path = PROCESSED_DIR / name
@@ -25,6 +32,9 @@ def cached(name, builder):
     result = builder()
     path.write_text(json.dumps(result, indent=2), encoding="utf-8")
     return result
+
+
+
 def rebuild_state():
     calls = load_calls()
     turns = [t for c in calls for t in c["turns"]]
@@ -54,23 +64,38 @@ app.add_middleware(
 class AskBody(BaseModel):
     question: str
 @app.get("/api/calls")
+
+
+
 def get_calls():
     return [
         {"id": c["id"], "expert": c["expert"], "role": c["role"], "market": c["market"]}
         for c in STATE["calls"]
     ]
 @app.get("/api/guide")
+
+
+
 def get_guide():
     return STATE["guide"]
 @app.get("/api/themes")
+
+
+
 def get_themes():
     return STATE["themes"]
 @app.post("/api/ask")
+
+
+
 def post_ask(body: AskBody):
     if not body.question.strip():
         raise HTTPException(400, "Question cannot be empty")
     return answer_question(body.question, STATE)
 @app.get("/api/turn/{turn_id}")
+
+
+
 def get_turn(turn_id: str, context: int = 2):
     turn = STATE["by_id"].get(turn_id)
     if not turn:
