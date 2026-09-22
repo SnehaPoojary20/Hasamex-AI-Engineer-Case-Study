@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { askQuestion } from "../api";
 import QuoteBlock from "../Quote Block/quoteBlock.jsx";
-import "./AskTab.css";
+import "./askTab.css";
 
 function AskTab() {
   const [question, setQuestion] = useState("");

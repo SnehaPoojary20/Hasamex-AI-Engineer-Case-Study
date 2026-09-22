@@ -1,4 +1,4 @@
-import "./QuoteBlock.css";
+import "./quoteBlock.css";
 
 function QuoteBlock ({evidence}){
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {getGuide} from "../api";
 import QuoteBlock from "../Quote Block/quoteBlock.jsx";
-import "./GuideTab.css";
+import "./guideTab.css";
 
 function GuideTab (){
 
