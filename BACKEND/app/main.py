@@ -1,4 +1,5 @@
-﻿import json
+﻿import os
+import json
 from contextlib import asynccontextmanager
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, UploadFile, File
@@ -7,6 +8,21 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from app.parser import parse_transcript, validate
 from app.analysis import build_guide, build_themes, answer_question
+
+FRONTEND_URL = os.getenv(
+    "FRONTEND_URL",
+    "http://localhost:5173"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        FRONTEND_URL,
+    ],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 BASE = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE / "data" / "raw"

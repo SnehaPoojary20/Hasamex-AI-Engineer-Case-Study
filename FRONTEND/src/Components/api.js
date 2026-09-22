@@ -1,4 +1,4 @@
-const Base = "http://127.0.0.1:8000";
+const Base = import.meta.env.VITE_API_URL;
 
 async function req(path, opts) {
   const res = await fetch(Base + path, opts);

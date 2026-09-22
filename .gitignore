@@ -21,6 +21,11 @@ BACKEND/.mypy_cache/
 FRONTEND/node_modules/
 FRONTEND/dist/
 FRONTEND/.vite/
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
 
 # =========================
 # IDE / Editor
