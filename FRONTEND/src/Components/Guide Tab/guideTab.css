@@ -1,0 +1,45 @@
+.gt-loading, .gt-error {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.gt-question {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.gt-question:first-child { padding-top: 0; }
+
+.gt-question h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.gt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.gt-cell { display: flex; flex-direction: column; gap: 8px; }
+
+.gt-call-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+
+.gt-answer {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.gt-stats {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  padding-top: 16px;
+}

@@ -1,0 +1,40 @@
+.qb-list { display: flex; flex-direction: column; gap: 10px; }
+
+.qb-quote {
+  margin: 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--rule);
+}
+
+.qb-quote p {
+  margin: 0 0 4px;
+  font-size: 0.97rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.qb-quote footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.qb-speaker { color: var(--ink-soft); }
+
+.qb-time {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 3px;
+  padding: 1px 6px;
+  cursor: default;
+}
+
+.qb-empty {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
