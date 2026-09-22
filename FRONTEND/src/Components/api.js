@@ -22,3 +22,5 @@ export const askQuestion = (question) =>
     },
     body: JSON.stringify({ question }),
   });
+
+  
