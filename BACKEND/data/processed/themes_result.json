@@ -1,0 +1,243 @@
+{
+  "themes": [
+    {
+      "title": "Robotic surgery adoption is growing but uneven across hospitals",
+      "kind": "consensus",
+      "summary": "All experts agree that adoption is increasing overall but is concentrated in larger or academic centres, with smaller hospitals lagging behind.",
+      "positions": [
+        {
+          "call_id": "C1",
+          "stance": "adoption growing but uneven",
+          "evidence": [
+            {
+              "call_id": "C1",
+              "turn_id": "C1-T001",
+              "timestamp": "00:18",
+              "speaker": "Dr. Martin",
+              "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower"
+            }
+          ]
+        },
+        {
+          "call_id": "C2",
+          "stance": "adoption growing but uneven",
+          "evidence": [
+            {
+              "call_id": "C2",
+              "turn_id": "C2-T001",
+              "timestamp": "00:16",
+              "speaker": "Anna Keller",
+              "quote": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting"
+            }
+          ]
+        },
+        {
+          "call_id": "C3",
+          "stance": "adoption growing but uneven",
+          "evidence": [
+            {
+              "call_id": "C3",
+              "turn_id": "C3-T001",
+              "timestamp": "00:14",
+              "speaker": "Dr. Carter",
+              "quote": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "title": "Economic/ROI considerations are a key driver of purchase decisions",
+      "kind": "partial",
+      "summary": "Experts agree economics matter, but the weight given to financial ROI versus clinical strategy differs.",
+      "positions": [
+        {
+          "call_id": "C1",
+          "stance": "economics important",
+          "evidence": [
+            {
+              "call_id": "C1",
+              "turn_id": "C1-T005",
+              "timestamp": "02:18",
+              "speaker": "Dr. Martin",
+              "quote": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself"
+            }
+          ]
+        },
+        {
+          "call_id": "C2",
+          "stance": "economics important",
+          "evidence": [
+            {
+              "call_id": "C2",
+              "turn_id": "C2-T005",
+              "timestamp": "02:08",
+              "speaker": "Anna Keller",
+              "quote": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved"
+            }
+          ]
+        },
+        {
+          "call_id": "C3",
+          "stance": "economics balanced with clinical strategy",
+          "evidence": [
+            {
+              "call_id": "C3",
+              "turn_id": "C3-T007",
+              "timestamp": "03:10",
+              "speaker": "Dr. Carter",
+              "quote": "I would say economics and clinical strategy are balanced. I would not say finance alone decides the purchase"
+            }
+          ]
+        }
+      ],
+      "note": "C3 emphasizes a balanced view where finance is one of several factors, whereas C1 and C2 stress that the economic case is decisive."
+    },
+    {
+      "title": "Surgeon and staff training is critical for utilization",
+      "kind": "consensus",
+      "summary": "All experts highlight that adequate training of multiple surgeons and theatre staff is essential to achieve sufficient utilization and justify the investment.",
+      "positions": [
+        {
+          "call_id": "C1",
+          "stance": "training critical",
+          "evidence": [
+            {
+              "call_id": "C1",
+              "turn_id": "C1-T007",
+              "timestamp": "03:10",
+              "speaker": "Dr. Martin",
+              "quote": "Training matters, especially in the first year. If only one surgeon can use the system, the economics become difficult"
+            }
+          ]
+        },
+        {
+          "call_id": "C2",
+          "stance": "training critical",
+          "evidence": [
+            {
+              "call_id": "C2",
+              "turn_id": "C2-T007",
+              "timestamp": "03:05",
+              "speaker": "Anna Keller",
+              "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor. That weakens the business case"
+            }
+          ]
+        },
+        {
+          "call_id": "C3",
+          "stance": "training critical",
+          "evidence": [
+            {
+              "call_id": "C3",
+              "turn_id": "C3-T003",
+              "timestamp": "01:05",
+              "speaker": "Dr. Carter",
+              "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls"
+            }
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "title": "Projected growth rates over the next 3\u20115 years differ by market",
+      "kind": "disagreement",
+      "summary": "Experts provide varying expectations for procedure volume growth, ranging from high single\u2011digit to low\u2011double\u2011digit increases to 15\u201120% in stronger centres.",
+      "positions": [
+        {
+          "call_id": "C1",
+          "stance": "moderate\u2011high growth in strong centres",
+          "evidence": [
+            {
+              "call_id": "C1",
+              "turn_id": "C1-T011",
+              "timestamp": "05:07",
+              "speaker": "Dr. Martin",
+              "quote": "I expect adoption to continue increasing, probably steadily rather than explosively. I would expect maybe 15 to 20 percent more procedures annually in some of the stronger centres, but smaller hospitals will remain slower"
+            }
+          ]
+        },
+        {
+          "call_id": "C2",
+          "stance": "high single\u2011digit to low double\u2011digit growth overall",
+          "evidence": [
+            {
+              "call_id": "C2",
+              "turn_id": "C2-T011",
+              "timestamp": "05:08",
+              "speaker": "Anna Keller",
+              "quote": "I would expect continued growth, but probably closer to high single digits or low double digits in procedure volumes rather than something like 20 percent across the whole market"
+            }
+          ]
+        },
+        {
+          "call_id": "C3",
+          "stance": "potential >15% growth in some areas",
+          "evidence": [
+            {
+              "call_id": "C3",
+              "turn_id": "C3-T009",
+              "timestamp": "04:06",
+              "speaker": "Dr. Carter",
+              "quote": "I am quite positive. I think adoption could accelerate if training expands and systems become more cost competitive. I could see procedure growth above 15 percent annually in some areas"
+            }
+          ]
+        }
+      ],
+      "note": "Differences stem from each expert focusing on their specific market segment (strong centres vs whole market)."
+    },
+    {
+      "title": "Length of the purchase decision process",
+      "kind": "partial",
+      "summary": "All experts cite multi\u2011month timelines, with typical ranges overlapping but upper bounds differing.",
+      "positions": [
+        {
+          "call_id": "C1",
+          "stance": "6\u201112 months typical",
+          "evidence": [
+            {
+              "call_id": "C1",
+              "turn_id": "C1-T013",
+              "timestamp": "06:08",
+              "speaker": "Dr. Martin",
+              "quote": "Six to twelve months is realistic once the hospital becomes serious. It can be longer if the capital committee pushes the purchase into the next budget cycle"
+            }
+          ]
+        },
+        {
+          "call_id": "C2",
+          "stance": "9\u201118 months typical",
+          "evidence": [
+            {
+              "call_id": "C2",
+              "turn_id": "C2-T013",
+              "timestamp": "06:05",
+              "speaker": "Anna Keller",
+              "quote": "Nine to eighteen months is common. Procurement, clinical leadership, finance and management all need to align, so it can move slowly"
+            }
+          ]
+        },
+        {
+          "call_id": "C3",
+          "stance": "6\u20119 months if funding available, longer otherwise",
+          "evidence": [
+            {
+              "call_id": "C3",
+              "turn_id": "C3-T011",
+              "timestamp": "05:04",
+              "speaker": "Dr. Carter",
+              "quote": "Around six to nine months can happen if funding is already available. If the trust has to wait for a new capital cycle, it can take much longer"
+            }
+          ]
+        }
+      ],
+      "note": "C2 mentions longer cycles due to multi\u2011stakeholder alignment, extending the upper bound of the range."
+    }
+  ],
+  "quote_stats": {
+    "proposed": 15,
+    "verified": 15
+  }
+}

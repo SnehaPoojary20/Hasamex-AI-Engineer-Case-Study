@@ -1,0 +1,299 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "How would you describe current adoption of robotic surgery in your market?"
+    },
+    {
+      "id": "Q2",
+      "text": "What are the main barriers to adoption?"
+    },
+    {
+      "id": "Q3",
+      "text": "How important are hospital budgets and ROI in purchasing decisions?"
+    },
+    {
+      "id": "Q4",
+      "text": "How important are surgeon training and clinical outcomes?"
+    },
+    {
+      "id": "Q5",
+      "text": "What adoption trend do you expect over the next 3\u20135 years?"
+    },
+    {
+      "id": "Q6",
+      "text": "What is the typical hospital decision-making timeline for purchasing a new robotic system?"
+    }
+  ],
+  "calls": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "cells": {
+    "Q1": {
+      "C1": {
+        "answered": true,
+        "answer": "Adoption is growing but remains concentrated in larger academic hospitals and private centres, while smaller regional hospitals adopt more slowly.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T001",
+            "timestamp": "00:18",
+            "speaker": "Dr. Martin",
+            "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "Adoption is growing but uneven; large university hospitals are much more advanced while many smaller hospitals are still waiting.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T001",
+            "timestamp": "00:16",
+            "speaker": "Anna Keller",
+            "quote": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "Adoption is increasing and becoming standard for selected procedures in larger NHS trusts, though access still varies significantly by hospital.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T001",
+            "timestamp": "00:14",
+            "speaker": "Dr. Carter",
+            "quote": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital"
+          }
+        ]
+      }
+    },
+    "Q2": {
+      "C1": {
+        "answered": true,
+        "answer": "The biggest issue is still capital budget approval; purchasing committees need a strong economic case before approving a system.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T003",
+            "timestamp": "01:20",
+            "speaker": "Dr. Martin",
+            "quote": "The biggest issue is still capital budget approval. Hospitals may like the technology clinically, but purchasing committees need a strong economic case before approving a system"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "The main barriers are cost \u2013 large capital purchases with pressured hospital finances \u2013 and proving the system will be used enough.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T003",
+            "timestamp": "01:10",
+            "speaker": "Anna Keller",
+            "quote": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure. The second issue is proving that the system will be used enough"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "Both funding and training capacity are major barriers; without enough trained surgeons and theatre staff, adoption stalls.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T003",
+            "timestamp": "01:05",
+            "speaker": "Dr. Carter",
+            "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls"
+          }
+        ]
+      }
+    },
+    "Q3": {
+      "C1": {
+        "answered": true,
+        "answer": "Very important. Finance teams need to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T005",
+            "timestamp": "02:18",
+            "speaker": "Dr. Martin",
+            "quote": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "Budgets and ROI are crucial; the economic case, based on total cost of ownership and expected volume, decides whether a purchase is approved.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T005",
+            "timestamp": "02:08",
+            "speaker": "Anna Keller",
+            "quote": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "ROI matters but decisions are not purely financial; hospitals also consider patient outcomes, length of stay, surgeon recruitment, and clinical positioning.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T005",
+            "timestamp": "02:07",
+            "speaker": "Dr. Carter",
+            "quote": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position"
+          }
+        ]
+      }
+    },
+    "Q4": {
+      "C1": {
+        "answered": true,
+        "answer": "Training matters, especially in the first year, and hospitals want several surgeons trained to ensure high utilisation. Clinical outcomes are necessary but not enough on their own; hospitals will focus on economics and utilisation if outcomes are similar.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T007",
+            "timestamp": "03:10",
+            "speaker": "Dr. Martin",
+            "quote": "Training matters, especially in the first year. If only one surgeon can use the system, the economics become difficult. Hospitals want several surgeons trained so utilisation is high enough"
+          },
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T009",
+            "timestamp": "04:08",
+            "speaker": "Dr. Martin",
+            "quote": "Clinical outcomes are necessary, but they are not enough on their own. If two systems offer similar outcomes, the hospital will look hard at economics and utilisation"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "Surgeon training is very important; without enough trained surgeons utilization will be poor, weakening the business case.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T007",
+            "timestamp": "03:05",
+            "speaker": "Anna Keller",
+            "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor. That weakens the business case"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "Surgeon training is as important as funding, and clinical outcomes are also considered in adoption decisions.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T003",
+            "timestamp": "01:05",
+            "speaker": "Dr. Carter",
+            "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls"
+          },
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T005",
+            "timestamp": "02:07",
+            "speaker": "Dr. Carter",
+            "quote": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position"
+          }
+        ]
+      }
+    },
+    "Q5": {
+      "C1": {
+        "answered": true,
+        "answer": "Adoption is expected to continue increasing steadily, with maybe 15 to 20 percent more procedures annually in stronger centres, while smaller hospitals remain slower.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T011",
+            "timestamp": "05:07",
+            "speaker": "Dr. Martin",
+            "quote": "I expect adoption to continue increasing, probably steadily rather than explosively. I would expect maybe 15 to 20 percent more procedures annually in some of the stronger centres, but smaller hospitals will remain slower"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "Adoption is expected to continue growing gradually, likely high single\u2011digit or low double\u2011digit growth in procedure volumes over the next three to five years, not a dramatic jump.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T011",
+            "timestamp": "05:08",
+            "speaker": "Anna Keller",
+            "quote": "I would expect continued growth, but probably closer to high single digits or low double digits in procedure volumes rather than something like 20 percent across the whole market"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "Adoption is expected to accelerate, with potential procedure growth above 15 percent annually in some areas over the next three to five years.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T009",
+            "timestamp": "04:06",
+            "speaker": "Dr. Carter",
+            "quote": "I am quite positive. I think adoption could accelerate if training expands and systems become more cost competitive. I could see procedure growth above 15 percent annually in some areas"
+          }
+        ]
+      }
+    },
+    "Q6": {
+      "C1": {
+        "answered": true,
+        "answer": "Six to twelve months is realistic once the hospital becomes serious, though it can be longer if the capital committee pushes the purchase into the next budget cycle.",
+        "evidence": [
+          {
+            "call_id": "C1",
+            "turn_id": "C1-T013",
+            "timestamp": "06:08",
+            "speaker": "Dr. Martin",
+            "quote": "Six to twelve months is realistic once the hospital becomes serious. It can be longer if the capital committee pushes the purchase into the next budget cycle"
+          }
+        ]
+      },
+      "C2": {
+        "answered": true,
+        "answer": "The typical decision\u2011making timeline is nine to eighteen months, as procurement, clinical leadership, finance and management must all align.",
+        "evidence": [
+          {
+            "call_id": "C2",
+            "turn_id": "C2-T013",
+            "timestamp": "06:05",
+            "speaker": "Anna Keller",
+            "quote": "Nine to eighteen months is common. Procurement, clinical leadership, finance and management all need to align, so it can move slowly"
+          }
+        ]
+      },
+      "C3": {
+        "answered": true,
+        "answer": "Decision timelines can be six to nine months when funding is already available, but can take much longer if the trust must wait for a new capital cycle.",
+        "evidence": [
+          {
+            "call_id": "C3",
+            "turn_id": "C3-T011",
+            "timestamp": "05:04",
+            "speaker": "Dr. Carter",
+            "quote": "Around six to nine months can happen if funding is already available. If the trust has to wait for a new capital cycle, it can take much longer"
+          }
+        ]
+      }
+    }
+  },
+  "quote_stats": {
+    "proposed": 20,
+    "verified": 20
+  }
+}
